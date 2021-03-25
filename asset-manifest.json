@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/coming-soon.git/static/css/main.bfe0dfa8.chunk.css",
+    "main.js": "/coming-soon.git/static/js/main.b722907a.chunk.js",
+    "main.js.map": "/coming-soon.git/static/js/main.b722907a.chunk.js.map",
+    "runtime-main.js": "/coming-soon.git/static/js/runtime-main.3d4544d7.js",
+    "runtime-main.js.map": "/coming-soon.git/static/js/runtime-main.3d4544d7.js.map",
+    "static/js/2.311d60e9.chunk.js": "/coming-soon.git/static/js/2.311d60e9.chunk.js",
+    "static/js/2.311d60e9.chunk.js.map": "/coming-soon.git/static/js/2.311d60e9.chunk.js.map",
+    "index.html": "/coming-soon.git/index.html",
+    "static/css/main.bfe0dfa8.chunk.css.map": "/coming-soon.git/static/css/main.bfe0dfa8.chunk.css.map",
+    "static/js/2.311d60e9.chunk.js.LICENSE.txt": "/coming-soon.git/static/js/2.311d60e9.chunk.js.LICENSE.txt",
+    "static/media/App.scss": "/coming-soon.git/static/media/hero-mobile.1afd055b.jpg",
+    "static/media/icon-arrow.4b3d2d93.svg": "/coming-soon.git/static/media/icon-arrow.4b3d2d93.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.3d4544d7.js",
+    "static/js/2.311d60e9.chunk.js",
+    "static/css/main.bfe0dfa8.chunk.css",
+    "static/js/main.b722907a.chunk.js"
+  ]
+}
