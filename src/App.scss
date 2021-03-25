@@ -1,0 +1,125 @@
+$bg-desktop-image: url("./assets/hero-desktop.jpg");
+$bg-mobile-image: url("./assets/hero-mobile.jpg");
+
+$primary-color: #f06e6e;
+$hover-color: #f79292;
+$secondary-color: #473e3fe3;
+
+* {
+  padding: 0;
+  margin: 0;
+  letter-spacing: 2px;
+  color: $secondary-color;
+  background-repeat: no-repeat;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  p {
+    word-spacing: 3px;
+    font-size: 1.2vw;
+    color: $primary-color;
+  }
+  button {
+    cursor: pointer;
+  }
+}
+
+.body {
+  .main-wrapper {
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 60% 40%;
+    .title-part {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      .title {
+        max-width: 80%;
+        .logo {
+          img {
+            width: 25%;
+            height: 100%;
+          }
+        }
+        h1 {
+          font-size: 5vw;
+          span {
+            color: $primary-color;
+          }
+        }
+        p {
+          margin: 30px 0;
+        }
+      }
+      .submit {
+        display: flex;
+        input {
+          width: 60%;
+          padding: 0.4vw;
+          font-size: 1vw;
+          border-radius: 25px;
+          border: 3px solid $primary-color;
+        }
+        button {
+          width: 80px;
+          height: 10%;
+          border: none;
+          padding: 0.4vw;
+          font-size: 2vw;
+          margin-left: -20px;
+          border-radius: 25px;
+          transition: 300ms ease-in-out;
+          background-color: $primary-color;
+          &:hover {
+            background-color: $hover-color;
+            color: $hover-color;
+          }
+        }
+      }
+    }
+    .image-part {
+      order: 2;
+      background-size: cover;
+      background-image: $bg-desktop-image;
+    }
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .body {
+    text-align: center;
+    .main-wrapper {
+      display: block;
+      p {
+        font-size: 10px;
+        margin: 10px;
+      }
+      .logo {
+        width: 80%;
+        margin-left: -140px;
+        top: 0;
+        position: absolute;
+      }
+      .title {
+        margin-top: 20px;
+        .submit {
+          justify-content: center;
+          align-items: center;
+          input {
+            padding: 7px;
+            font-size: 10px;
+          }
+          button {
+            padding: 5px;
+          }
+        }
+      }
+      .image-part {
+        height: 30%;
+        margin-top: 30px;
+        background-size: cover;
+        background-image: $bg-mobile-image;
+      }
+    }
+  }
+}
